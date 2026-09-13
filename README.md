@@ -24,7 +24,7 @@ Reddit, X, Instagram, and YouTube are built to remove the moment where you'd nor
 
 - **Weekly focus credits** — a spendable reserve that resets weekly, with recovery messaging when it runs dry.
 - **Small wins** — nine repeatable real-world actions (reading, exercise, journaling, etc.) that earn credits on every completion, with an optional photo-proof bonus you're prompted for right after completing one.
-- **Mindful spending** — the four apps you spend credits on are the same platforms FrictionFlow tracks (Reddit, X, Instagram, YouTube), fully editable in Manage mode, with a styled prompt to log actual minutes used instead of assuming one minute per click.
+- **Mindful spending** — the four apps you spend credits on are the same platforms FrictionFlow tracks (Reddit, X, Instagram, YouTube), fully editable in Manage mode.
 - **Import from FrictionFlow** — pulls in your exported session file and converts it into real activity: completed sessions and self-caught distractions earn credits automatically.
 - **History, calendar, and themes** — a full activity log, a monthly calendar view, and ten selectable themes including a default FrictionFlow-gold theme that matches the extension's look.
 
