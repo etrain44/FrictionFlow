@@ -11,7 +11,7 @@ Reddit, X, Instagram, and YouTube are built to remove the moment where you'd nor
 ## FrictionFlow (browser extension)
 
 - **Intent Modal** — before you can scroll any supported site, you're asked what specific task brought you here and given a time budget for it, with a 30-second preview mode for quick demos.
-- **Feed Speed Bump** — once you've scrolled past a threshold, the page pulls back and asks for a 5-second breath before continuing. The threshold is tuned lower for short-form content (Reels/Shorts), which take far less scrolling to consume the same amount of feed.
+- **Feed Speed Bump** — once you've scrolled past a threshold, the page pulls back and asks for a 5-second breath before continuing.
 - **Intent Drift Detection** — periodically checks whether the visible page content still relates to your stated intent and surfaces a reminder if it doesn't.
 - **Session Reflection** — asks directly whether you completed your task. A "no" logs a distraction and shows the pattern forming across the day.
 - **Escalating Extensions** — repeated distractions in the same day get progressively shorter extension grants, with a hard daily cap. Closing the tab instead of extending is tracked as its own, distinct outcome.
