@@ -1,0 +1,57 @@
+#friction-flow-host {
+  all: initial;
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  pointer-events: none;
+  font-family: Arial, sans-serif;
+}
+#friction-flow-host * { box-sizing: border-box; }
+.ff-backdrop {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(7, 12, 18, .66);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  pointer-events: auto;
+}
+.ff-modal {
+  width: min(440px, 100%);
+  padding: 32px;
+  color: #f5f1e8;
+  background: #121a1d;
+  border: 1px solid #3e5754;
+  border-radius: 18px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, .5);
+}
+.ff-kicker { color: #d1ae65; font-size: 12px; font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; }
+.ff-modal h1 { margin: 10px 0 12px; font: 700 30px/1.08 Georgia, serif; letter-spacing: 0; }
+.ff-modal p { margin: 0 0 24px; color: #b9c4bd; font-size: 14px; line-height: 1.6; }
+.ff-field-label { display: block; margin: 0 0 8px; color: #e3e9e2; font-size: 13px; font-weight: 700; }
+.ff-modal textarea, .ff-modal select {
+  width: 100%; color: #f5f1e8; background: #1b2829; border: 1px solid #49635e; border-radius: 9px;
+  padding: 12px; font: inherit; outline: none;
+}
+.ff-modal textarea { min-height: 82px; resize: vertical; }
+.ff-modal textarea:focus, .ff-modal select:focus { border-color: #d1ae65; box-shadow: 0 0 0 3px rgba(209, 174, 101, .15); }
+.ff-duration { margin: 18px 0 22px; }
+.ff-error { min-height: 18px; margin: 7px 0 0; color: #f0a18f !important; font-size: 12px !important; }
+.ff-primary, .ff-secondary {
+  width: 100%; border: 0; border-radius: 9px; padding: 13px 16px; cursor: pointer;
+  font: 700 14px inherit; transition: transform .2s, background .2s;
+}
+.ff-primary { color: #12201f; background: #d1ae65; }
+.ff-primary:hover { background: #e3c981; transform: translateY(-1px); }
+.ff-secondary { color: #f5f1e8; background: #304342; }
+.ff-secondary:hover { background: #3d5652; }
+.ff-actions { display: grid; gap: 10px; margin-top: 22px; }
+.ff-stat { margin: 0 0 22px; padding: 14px; color: #dbe7dc; background: #1a2929; border-left: 3px solid #d1ae65; border-radius: 5px; font-size: 13px; line-height: 1.5; }
+.ff-breath { position: fixed; left: 50%; bottom: 28px; width: min(420px, calc(100% - 32px)); transform: translateX(-50%); pointer-events: auto; color: #edf4ec; background: #12201f; border: 1px solid #52766e; border-radius: 14px; padding: 20px; box-shadow: 0 18px 50px rgba(0,0,0,.35); }
+.ff-breath h2 { margin: 0 0 7px; font: 700 19px Georgia, serif; }
+.ff-breath p { margin: 0 0 15px; color: #b9c4bd; font-size: 13px; }
+.ff-breath-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.ff-breath .ff-primary { width: auto; padding: 10px 15px; }
+.ff-timer { min-width: 28px; color: #d1ae65; font-size: 22px; font-weight: 700; text-align: center; }

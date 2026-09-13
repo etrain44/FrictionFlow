@@ -1,0 +1,34 @@
+{
+  "name": "replenish",
+  "version": "1.0.0",
+  "description": "Replenish weekly focus credits",
+  "main": "main.js",
+  "author": "Replenish",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win"
+  },
+  "build": {
+    "appId": "com.replenish.app",
+    "productName": "Replenish",
+    "files": [
+      "index.html",
+      "styles.css",
+      "app.js",
+      "main.js",
+      "preload.js",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^38.1.0",
+    "electron-builder": "^26.0.12"
+  }
+}
